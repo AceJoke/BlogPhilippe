@@ -10,6 +10,8 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -24,16 +26,23 @@
   <![endif]-->
 
   <!-- start navigation  -->
-      <nav>
-        <a href="index.html">accueil </a>
-        <a href="articles.html">articles </a>
-        <a href="contact.html">contact </a>
-        <a href="biographie.html">biographie </a>
-  <!-- end of navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">accueil </a></li><i class="fab fa-playstation"></i>
+      <li><a href="articles.html">articles </a></li><i class="fas fa-newspaper"></i>
+      <li><a href="contact.html">contact </a></li><i class="fas fa-users"></i>
+      <li><a href="biographie.html">biographie </a></li><i class="fas fa-book-open"></i>
+    </ul>
+  <aside >
+    <ul>
+      <li><a href="#">inscription</a></li><i class="fas fa-user-edit"></i>
+      <li><a href="#">connection</a></li><i class="fas fa-address-card"></i>
+    </ul>
+  </aside>
+<!-- end of navigation -->
+  </nav>
 
-      </nav>
-
-      <!-- start of header -->
+      <!-- start  header -->
        <header>
          <h1>Bienvenue sur le blog de philippe  </h1>
        </header>
@@ -50,6 +59,27 @@
          </p>
         </div>
 
+     <h3>formulaire de contact</h3>
+        <form  action="formulaire contact" method="post">
+          <div>
+            <label for="name">nom</label>
+            <input type="text" name="nom de famille">
+            <label for="surname">prénom</label>
+            <input type="text" name="prénom">
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+            <br>
+            <textarea name="name" rows="8" cols="80"></textarea>
+          </div>
+          <button type="button" name="valider">valider</button>
+
+
+
+        </form>
+
+
+
+
     </main>
         <!-- End  main  -->
 
@@ -60,9 +90,9 @@
 
     </p>
      <h4>réalisé par philippe  </h4>
-     <a href="https://twitter.com/AkaAceJoke">mon twitter</a>
-     <a href="https://fr.linkedin.com/in/philippe-legrin-bb242b154">mon linkedin</a>
-     <a href="mailto:philippelegrin.pro@gmail.com">mon adresse gmail</a>
+     <a href="https://twitter.com/AkaAceJoke"></a>twitter<i class="fab fa-twitter-square"></i>
+     <a href="https://fr.linkedin.com/in/philippe-legrin-bb242b154">linkedin</a><i class="fab fa-linkedin"></i>
+     <a href="mailto:philippelegrin.pro@gmail.com">gmail</a><i class="fas fa-envelope"></i>
 
   </footer>
   <!-- end footer -->

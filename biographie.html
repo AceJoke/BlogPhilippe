@@ -10,10 +10,13 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 
@@ -23,15 +26,21 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- start navigation  -->
-      <nav>
-        <a href="index.html">accueil </a>
-        <a href="articles.html">articles </a>
-        <a href="contact.html">contact </a>
-        <a href="biographie.html">biographie </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">accueil </a></li><i class="fab fa-playstation"></i>
+        <li><a href="articles.html">articles </a></li><i class="fas fa-newspaper"></i>
+        <li><a href="contact.html">contact </a></li><i class="fas fa-users"></i>
+        <li><a href="biographie.html">biographie </a></li><i class="fas fa-book-open"></i>
+      </ul>
+    <aside >
+      <ul>
+        <li><a href="#">inscription</a></li><i class="fas fa-user-edit"></i>
+        <li><a href="#">connection</a></li><i class="fas fa-address-card"></i>
+      </ul>
+    </aside>
   <!-- end of navigation -->
-
-      </nav>
+    </nav>
 
       <!-- start of header -->
        <header>
@@ -41,26 +50,56 @@
 
 
 
-       <main>
-           <!-- start  main -->
-        <div>
-          <h2>un blog sur mes passions  </h2>
-          <p>
-            je partagerais régulierement des articles sur le foot, le jeux vidéo et les sports américains
-         </p>
-        </div>
-
-        <img src="img/nba.jpeg" alt="logo nba">
+<main>
+      <!-- start  main -->
+    <div>
+      <h2>un blog sur mes passions  </h2>
         <p>
+            je partagerais régulierement des articles sur le foot, le jeux vidéo et les sports américains
+        </p>
+      </div>
+
+
+    <h4>biographie de l'auteur</h4>
+    <img src="img/nba.jpeg" alt="logo nba">
+    <p>
           La saison régulière débute la dernière semaine d'octobre et se termine vers la fin du mois d'avril. Une cérémonie, qui marque le coup d'envoi de la saison, a lieu fin octobre avec la remise des bagues de champion à l'équipe ayant remporté le titre la saison précédente. La saison régulière débute alors, au début du mois de novembre, par une soirée d'ouverture (opening night) où la ligue programme généralement des matchs opposant des équipes médiatisées.
 Durant la saison, chaque équipe dispute 82 matchs : 41 à domicile et 41 à l'extérieur. Les adversaires affrontés dépendent de la division dans laquelle l'équipe se trouve. En effet, chaque équipe doit disputer quatre rencontres contre les équipes de sa division (soit 16 matchs), trois ou quatre rencontres contre chaque équipe des autres divisions de la même conférence (36 matchs), et deux contre chaque équipe de l'autre conférence (30 matchs). Avec la Ligue nationale de hockey, la NBA est la seule ligue professionnelle américaine où toutes les équipes sont amenées à se rencontrer au moins une fois par saison. Afin de permettre une meilleure récupération des joueurs et d'éviter les blessures dues à la fatigue, la ligue a organisé le calendrier de manière à limiter les enchaînements de deux rencontres en deux jours (« Back-to-back »).
 La NBA a également pour particularité de programmer des matchs le soir de Noël (« Christmas games »), et ce, depuis la saison 1947-1948 - bien que les rencontres ne furent diffusées à la télévision qu'à partir de 1983. En raison de l'importance des audiences en ce jour férié, la NBA organise généralement des rencontres à fort enjeu entre des équipes très médiatisées. Kobe Bryant et Shaquille O'Neal détiennent ainsi le record de participations à un match le soir de Noël, avec onze participations chacun. Bernard King détient quant à lui le record de points inscrits avec 60 points, lors d'un match contre les Nets le 24 décembre 1984.
 Pour départager les équipes différents critères sont appliqués.
 Les différentes distinctions individuelles sont enfin décernées, puis les playoffs commencent dans la foulée pour se terminer vers la mi-juin par les Finales NBA.
-        </p>
-     </section>
+    </p>
 
-    </main>
+
+ <section>
+    <thead>
+      <h4>expérience professionnelles de l'auteur</h4>
+
+    <tbody>
+      <table>
+        <tr>
+          <th>Année</th>
+          <th>Experience</th>
+        </tr>
+        <tr>
+          <th>2013</th>
+          <th>2010</th>
+          <th>2008</th>
+        </tr>
+        <tr>
+          <th>Extremum ex incunabulis.</th>
+          <th>Extremum ex incunabulis.</th>
+          <th>Extremum ex incunabulis.</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th></th>
+        </tr>
+      </table>
+    </tbody>
+  </section>
+
+</main>
         <!-- End  main  -->
 
 
@@ -70,9 +109,9 @@ Les différentes distinctions individuelles sont enfin décernées, puis les pla
 
     </p>
      <h4>réalisé par philippe  </h4>
-     <a href="https://twitter.com/AkaAceJoke">mon twitter</a>
-     <a href="https://fr.linkedin.com/in/philippe-legrin-bb242b154">mon linkedin</a>
-     <a href="mailto:philippelegrin.pro@gmail.com">mon adresse gmail</a>
+     <a href="https://twitter.com/AkaAceJoke"></a>twitter<i class="fab fa-twitter-square"></i>
+     <a href="https://fr.linkedin.com/in/philippe-legrin-bb242b154">linkedin</a><i class="fab fa-linkedin"></i>
+     <a href="mailto:philippelegrin.pro@gmail.com">gmail</a><i class="fas fa-envelope"></i>
 
   </footer>
   <!-- end footer -->
