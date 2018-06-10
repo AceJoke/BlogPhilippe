@@ -112,7 +112,7 @@ textarea {
    .flex {
       display: flex ;
       justify-content: space-between;
-      
+
 }
 
 
@@ -178,7 +178,16 @@ padding-left:0;
 
 
    /* Start biographie main style*/
+   table{
+     border-collapse: collapse;
+     flex-direction: column-reverse;
 
+   }
+
+tr, th{
+
+border: 1px solid black;
+}
    /*End biographie main style*/
 
 /* ==========================================================================
